@@ -12,23 +12,17 @@ body {
 .header .garuda {
   object-fit: contain;
   width: 100px;
-  margin-top: 10px;
-  margin-left: 30px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  margin: 20px 75px 0 75px;
 }
 
 .header .center {
   text-align: center;
   margin-top: 50px;
-}
-
-.header .no-kk {
-  margin-right: 30px;
-  margin-top: 10px;
 }
 
 .info {
@@ -66,7 +60,7 @@ footer {
   display: flex;
   justify-content: space-between;
 
-  margin: 35px 75px;
+  margin: 25px 75px 0 75px;
 }
 
 .penerbitan #tanggal {
@@ -78,21 +72,21 @@ footer {
   padding: 1px;
 }
 
-.tandatangan,
-.stampel {
+.sign1,
+.sign2 {
   width: 220px;
   height: 180px;
   text-align: center;
 }
 
-.tandatangan {
+.sign1 {
   background-image: url("./resources/sign1.png");
   background-position: center 34%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.stampel {
+.sign2 {
   background-image: url("./resources/sign2.png");
   background-position: center 35%;
   background-size: contain;
