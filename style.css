@@ -5,6 +5,7 @@
 body {
   background-image: url("./resources/kk.jpg");
   background-size: cover;
+  background-position: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
 }
@@ -59,4 +60,41 @@ body {
 .main-table,
 .secondary-table tr td:nth-child(1) {
   text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 35px 75px;
+}
+
+.penerbitan #tanggal {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.penerbitan td {
+  padding: 1px;
+}
+
+.tandatangan,
+.stampel {
+  width: 220px;
+  height: 180px;
+  text-align: center;
+}
+
+.tandatangan {
+  background-image: url("./resources/sign1.png");
+  background-position: center 34%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.stampel {
+  background-image: url("./resources/sign2.png");
+  background-position: center 35%;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
