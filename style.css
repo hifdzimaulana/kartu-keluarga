@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("./resources/kk.jpg");
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+.header .garuda {
+  object-fit: contain;
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .center {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.header .no-kk {
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.info {
+  font-size: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.info #left,
+#right {
+  margin: 20px 50px;
+}
+
+.main-table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+.main-table thead tr:nth-child(2) {
+  background-color: gainsboro;
+}
