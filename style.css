@@ -40,7 +40,7 @@ body {
   margin: 0 auto;
 }
 .main-table thead tr:nth-child(2) {
-  background-color: gainsboro;
+  background-color: #ebebeb;
 }
 
 .secondary-table {
@@ -48,7 +48,7 @@ body {
   margin: 10px auto;
 }
 .secondary-table thead tr:nth-child(3) {
-  background-color: gainsboro;
+  background-color: #ebebeb;
 }
 
 .main-table,
@@ -88,7 +88,7 @@ footer {
 
 .sign2 {
   background-image: url("./resources/sign2.png");
-  background-position: center 35%;
+  background-position: center 32%;
   background-size: contain;
   background-repeat: no-repeat;
 }
